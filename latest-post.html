@@ -1,15 +1,75 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>
-      latest-post
-    </title>
-  </head>
-
-  <body>
-    <h1>latest-post</h1>
-    <p>
-      Mega Bacon Ipsum
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>latest-post</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      background-image: url('/images/cool-background.png'); 
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'DotGothic16', sans-serif; 
+      color: #fff; 
+    }
+    .header-img {
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    .content-container {
+      background-color: rgba(226, 217, 217, 0.85); 
+      border-radius: 0.5rem;
+      margin-top: -140px; 
+      padding: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    }
+    h1 {
+      font-size: 4rem; 
+      color: #1c1369;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6); 
+    }
+    p {
+      font-size: 1.25rem; 
+      font-family: 'Arial', sans-serif; 
+      color: #000; 
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7); 
+    }
+    .fun-btn {
+      background-color: #c83f49; 
+      color: #fff;
+      font-size: 1.5rem;
+      padding: 0.75rem 3rem;
+      border-radius: 30px; 
+      margin-top: 1rem;
+      border: 2px solid #fff; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    .fun-btn:hover {
+      background-color: #e84a5f;
+      transform: scale(1.1); 
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header class="header-img">
+    <h1>Welcome to Makesite!</h1>
+  </header>
+  <div class="container content-container text-center">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <p>Mega Bacon Ipsum
 
 
 Tempor irure proident, pork do porchetta exercitation minim est biltong rump corned beef ad t-bone. Chicken ullamco pastrami ham hock chislic shankle. Anim spare ribs chislic eu. Anim turducken in jowl enim hamburger cupim mollit.
@@ -21,7 +81,10 @@ Andouille occaecat ball tip, sunt ullamco culpa eu ut dolor. Shank meatball spar
 Landjaeger chuck tenderloin ipsum bacon, porchetta officia laborum short ribs ad beef buffalo burgdoggen. Duis beef ribs pork chop qui pancetta minim sausage proident pork loin eiusmod. Picanha enim ipsum eiusmod. Corned beef dolor laborum ut pork exercitation ball tip buffalo swine tongue picanha chicken ribeye sunt jowl. Beef cillum chuck excepteur sunt. Beef ribs nisi magna excepteur aute.
 
 Cupim pork leberkas quis drumstick. Esse shoulder turducken doner sunt, nulla pastrami dolore. Laboris ex short ribs filet mignon. Ex anim swine ipsum non pancetta magna aliqua chuck pork chop rump nostrud veniam nulla shank. Sunt excepteur leberkas swine, tongue proident rump turducken sausage brisket drumstick turkey.
-
-    </p>
-  </body>
+</p>
+        <button class="fun-btn">Read More</button>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
